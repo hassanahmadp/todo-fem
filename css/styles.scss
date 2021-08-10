@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: rgba(154, 154, 154, 1);
+    border: none;
+  }
+}
+
+.bodyClone {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.container-main {
+  height: 10rem;
+  background: lightblue;
+  margin: 0 auto;
+  position: relative;
+  max-width: 540px;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
